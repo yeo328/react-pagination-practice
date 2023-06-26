@@ -1,0 +1,34 @@
+#pagination{
+    width: 90%;
+    height: 100px;
+    background-color: indianred;
+    margin: 0 auto;
+    text-align: center;
+}
+#pagenation-inner{
+    display: inline-block; 
+    /* 가로길이가 자식길이만큼 잡힘 */
+    background-color: violet;
+}
+#page{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    cursor: pointer;
+    padding-top: 6px;
+    box-sizing: border-box;
+
+}
+#page:hover{
+    background-color: #777;
+}
+
+.active{
+    background-color: #777 !important;
+    /* css 우선순위가 밀려버려서 important 줘야함 */
+    color: #ffffff;
+}

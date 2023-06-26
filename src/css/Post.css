@@ -1,0 +1,31 @@
+#post{
+    width: 90%;
+    height: 50px;
+    background-color: sandybrown;
+    margin-bottom: 2px;
+}
+
+#post>span{
+    float:left;
+    text-align: center;
+}
+#post>span:first-child{
+    width: 5%;
+    height: 100%;
+    background-color: firebrick;
+}
+#post>span:nth-child(2){
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
+#post>span:nth-child(3){
+    width: 15%;
+    height: 100%;
+    background-color: rgb(136, 84, 84);
+}
+#post>span:nth-child(4){
+    width: 15%;
+    height: 100%;
+    background-color: rgb(80, 141, 126);
+}
